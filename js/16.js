@@ -1,5 +1,8 @@
 const limit = parseInt(prompt("Introduzca un número:"))
-
-for(let number = 1; number <= limit; number++){
-    document.write(number + "<br>")
+if (limit){
+    for(let number = 1; number <= limit; number++){
+        document.write(number + "<br>")
+    }
+}else{
+    alert("ERROR: El dato introducido no es un número.")
 }

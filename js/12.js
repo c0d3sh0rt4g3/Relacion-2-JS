@@ -1,4 +1,5 @@
 let num = prompt("Introduzca un número para calcular su factorial:")
+
 if(num > 0 || num < 0){
     for (var i = num - 1; i >= 1; i--) {
         num *= i

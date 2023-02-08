@@ -11,7 +11,7 @@ if (times){
         }
     }
 }else if(times == 0){
-    alert("Has introducido 0 por tanto no se escribirá la frase ninguna vez.")
+    alert("Has introducido 0 por tanto no se escribirá el carácter ninguna vez.")
 }else{
     alert("ERROR: No has introducido un número.")
 }
